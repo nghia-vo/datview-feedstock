@@ -1,5 +1,5 @@
 {% set name = "datview" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/datview-{{ version }}.tar.gz
-  sha256: 34ff2df92ba6f17973fe59f3f48c90e285e78de945a17c74ba335ea85b9a2a82
+  sha256: ca5a4a020a158550b7fba2748fe150ab4a9794eaf86451d15a43c2241b8186cf
 
 build:
   number: 0
